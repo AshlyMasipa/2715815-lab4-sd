@@ -1,0 +1,40 @@
+/* Basic page setup */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+/* Input and button styling */
+input[type="text"], button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #00a396;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #18d3c3;
+}
+
+/* Country information display */
+#country-info p {
+    margin: 10px;
+}
+
+#country-info img {
+    margin: 5px;
+}
+
+/* Bordering countries */
+#bordering-countries p {
+    margin: 5px 0;
+}
